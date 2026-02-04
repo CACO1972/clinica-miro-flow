@@ -201,3 +201,8 @@ body {
 .animate-in-delay-1 { animation-delay: 0.1s; opacity: 0; }
 .animate-in-delay-2 { animation-delay: 0.2s; opacity: 0; }
 .animate-in-delay-3 { animation-delay: 0.3s; opacity: 0; }
+
+@keyframes slideUp {
+  0% { opacity: 0; transform: translateY(30px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
